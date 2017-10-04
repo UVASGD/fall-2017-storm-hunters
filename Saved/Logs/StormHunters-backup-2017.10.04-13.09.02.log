@@ -1,0 +1,1620 @@
+﻿Log file open, 10/03/17 19:49:06
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: StormHunters
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1414318883) SRandInit(1414318883).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.114987
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.03-23.49.07:011][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.03-23.49.07:011][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.03-23.49.07:060][  0]LogInit: Computer: DESKTOP-5OGJ61U
+[2017.10.03-23.49.07:060][  0]LogInit: User: wesda
+[2017.10.03-23.49.07:060][  0]LogInit: CPU Page size=4096, Cores=2
+[2017.10.03-23.49.07:060][  0]LogInit: High frequency timer resolution =2.343751 MHz
+[2017.10.03-23.49.07:060][  0]LogMemory: Memory total: Physical=19.9GB (20GB approx)
+[2017.10.03-23.49.07:061][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.03-23.49.07:061][  0]LogMemory: Process Physical Memory: 278.33 MB used, 278.33 MB peak
+[2017.10.03-23.49.07:061][  0]LogMemory: Process Virtual Memory: 276.05 MB used, 276.05 MB peak
+[2017.10.03-23.49.07:061][  0]LogMemory: Physical Memory: 7721.45 MB used,  12630.14 MB free, 20351.60 MB total
+[2017.10.03-23.49.07:061][  0]LogMemory: Virtual Memory: 667.22 MB used,  12630.14 MB free, 134217728.00 MB total
+[2017.10.03-23.49.07:592][  0]LogInit: Using OS detected language (en-US).
+[2017.10.03-23.49.07:592][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.03-23.49.07:662][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.03-23.49.11:538][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.03-23.49.11:549][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2017.10.03-23.49.11:549][  0]LogD3D11RHI:       128/0/10175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2017.10.03-23.49.11:552][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.03-23.49.11:552][  0]LogD3D11RHI:       0/0/10175 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.03-23.49.11:552][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.03-23.49.11:562][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.03-23.49.11:563][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.03-23.49.11:563][  0]LogWindows: EnumDisplayDevices:
+[2017.10.03-23.49.11:563][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2017.10.03-23.49.11:563][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.10.03-23.49.11:563][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2017.10.03-23.49.11:563][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2017.10.03-23.49.11:563][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2017.10.03-23.49.11:563][  0]LogD3D11RHI:   Driver Version: 21.20.16.4590 (internal:21.20.16.4590, unified:21.20.16.4590)
+[2017.10.03-23.49.11:563][  0]LogD3D11RHI:      Driver Date: 1-18-2017
+[2017.10.03-23.49.11:563][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.03-23.49.11:571][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.03-23.49.11:619][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2017.10.03-23.49.11:633][  0]LogShaderCompilers: Guid format shader working directory is -46 characters bigger than the processId version (../../../../../../Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Intermediate/Shaders/WorkingDirectory/8148/).
+[2017.10.03-23.49.11:634][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/wesda/AppData/Local/Temp/UnrealShaderWorkingDir/BA5DD9E448CC4E6CC406C78572BF2684/'.
+[2017.10.03-23.49.11:635][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.03-23.49.14:506][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.03-23.49.14:563][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.03-23.49.14:620][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.03-23.49.14:675][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.03-23.49.14:740][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.03-23.49.14:795][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.03-23.49.14:852][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.03-23.49.14:919][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.03-23.49.14:972][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.03-23.49.15:034][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.03-23.49.15:090][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.03-23.49.15:145][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.03-23.49.15:205][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.03-23.49.15:261][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.03-23.49.15:316][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.03-23.49.15:430][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.03-23.49.15:430][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.03-23.49.15:473][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.03-23.49.15:598][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.03-23.49.15:633][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.03-23.49.15:688][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.03-23.49.15:743][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.03-23.49.15:798][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.03-23.49.15:859][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.03-23.49.15:859][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.03-23.49.16:597][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.03-23.49.17:506][  0]LogDerivedDataCache: Loaded boot cache 0.91s 93MB C:/Users/wesda/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.03-23.49.17:507][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/wesda/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.03-23.49.17:507][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.03-23.49.17:507][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.03-23.49.17:507][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.03-23.49.17:507][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.03-23.49.17:541][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.03-23.49.17:554][  0]LogDerivedDataCache: Using Local data cache path C:/Users/wesda/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.03-23.49.17:573][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.03-23.49.17:585][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.03-23.49.17:604][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.03-23.49.17:605][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.03-23.49.19:147][  0]LogAssetRegistry: FAssetRegistry took 0.0373 seconds to start up
+[2017.10.03-23.49.19:418][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.03-23.49.20:471][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.03-23.49.20:535][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.03-23.49.20:536][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.03-23.49.20:536][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.03-23.49.20:536][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.03-23.49.20:536][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.03-23.49.20:554][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.03-23.49.21:834][  0]LogNetVersion: StormHunters , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 4212083981)
+[2017.10.03-23.49.22:499][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.068288 seconds
+[2017.10.03-23.49.22:506][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.03-23.49.22:506][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.10.03-23.49.22:506][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.03-23.49.22:577][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.03-23.49.31:610][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.03-23.49.31:660][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.03-23.49.32:763][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.03-23.49.33:490][  0]SourceControl: Source control is disabled
+[2017.10.03-23.49.33:491][  0]SourceControl: Source control is disabled
+[2017.10.03-23.49.33:564][  0]SourceControl: Source control is disabled
+[2017.10.03-23.49.33:640][  0]SourceControl: Source control is disabled
+[2017.10.03-23.49.34:718][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.03-23.49.35:280][  0]LogOcInput: OculusInput pre-init called
+[2017.10.03-23.49.35:855][  0]LogEngine: Initializing Engine...
+[2017.10.03-23.49.35:860][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.03-23.49.36:471][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.03-23.49.36:472][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.03-23.49.36:733][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.03-23.49.36:755][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.03-23.49.36:842][  0]LogInit: FAudioDevice initialized.
+[2017.10.03-23.49.36:959][  0]LogDerivedDataCache: Saved boot cache 0.12s 93MB C:/Users/wesda/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.03-23.49.36:979][  0]LogInit: Texture streaming: Enabled
+[2017.10.03-23.49.37:145][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.03-23.49.37:510][  0]LogInit: Transaction tracking system initialized
+[2017.10.03-23.49.37:954][  0]BlueprintLog: New page: Editor Load
+[2017.10.03-23.49.39:302][  0]LocalizationService: Localization service is disabled
+[2017.10.03-23.49.40:483][  0]LogConsoleResponse: Display: 
+[2017.10.03-23.49.41:116][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.03-23.49.41:117][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.03-23.49.41:118][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.03-23.49.41:401][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Content/' took 0.03s
+[2017.10.03-23.49.42:997][  0]SourceControl: Source control is disabled
+[2017.10.03-23.49.43:000][  0]Cmd: MAP LOAD FILE="../../../../../../Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.03-23.49.43:010][  0]LightingResults: New page: Lighting Build
+[2017.10.03-23.49.43:059][  0]MapCheck: New page: Map Check
+[2017.10.03-23.49.43:059][  0]LightingResults: New page: Lighting Build
+[2017.10.03-23.49.56:352][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.10.03-23.50.01:981][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.03-23.50.02:303][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.03-23.50.02:392][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 89.368ms to complete.
+[2017.10.03-23.50.02:393][  0]LogFileHelpers: Loading map 'Minimal_Default' took 19.394
+[2017.10.03-23.50.02:730][  0]LogCollectionManager: Loaded 0 collections in 0.001953 seconds
+[2017.10.03-23.50.02:883][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Saved/Collections/' took 0.01s
+[2017.10.03-23.50.02:883][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Content/Developers/wesda/Collections/' took 0.01s
+[2017.10.03-23.50.02:883][  0]LogFileCache: Scanning file cache for directory 'C:/Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Content/Collections/' took 0.00s
+[2017.10.03-23.50.02:883][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.10.03-23.50.02:902][  0]LogContentBrowser: Native class hierarchy populated in 0.0144 seconds. Added 2386 classes and 500 folders.
+[2017.10.03-23.50.03:005][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0013 seconds. Added 0 classes and 0 folders.
+[2017.10.03-23.50.03:584][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.03-23.50.03:658][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.03-23.50.04:128][  0]LogSlate: Took 0.008434 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.03-23.50.04:141][  0]LogSlate: Took 0.007354 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.03-23.50.04:160][  0]LogSlate: Took 0.005793 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.03-23.50.04:390][  0]LogRenderer: Reallocating scene render targets to support 580x324 Format 10 NumSamples 1 (Frame:1).
+[2017.10.03-23.50.05:223][  0]LogSlate: Took 0.006974 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.03-23.50.05:391][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.03-23.50.05:392][  0]LogLoad: (Engine Initialization) Total time: 61.51 seconds
+[2017.10.03-23.50.05:392][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.03-23.50.05:393][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.03-23.50.05:393][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.03-23.50.05:454][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.03-23.50.05:485][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Content/' took 0.06s
+[2017.10.03-23.50.05:598][  2]LogAssetRegistry: Asset discovery search completed in 46.4755 seconds
+[2017.10.03-23.50.05:602][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.03-23.50.05:602][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000089 seconds (updated 0 objects)
+[2017.10.03-23.50.33:923][357]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.03-23.50.39:232][357]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.03-23.50.45:166][357]LogAIModule: Creating AISystem for world KS_Test
+[2017.10.03-23.50.45:422][357]Cmd: MAP LOAD FILE="../../../../../../Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Content/Maps/KS_Test.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.03-23.50.45:422][357]LightingResults: New page: Lighting Build
+[2017.10.03-23.50.45:423][357]LoadErrors: New page: Loading map: KS_Test.umap
+[2017.10.03-23.50.45:428][357]MapCheck: New page: Map Check
+[2017.10.03-23.50.45:428][357]LightingResults: New page: Lighting Build
+[2017.10.03-23.50.52:522][357]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.03-23.50.52:985][357]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.03-23.50.53:094][357]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 109.085ms to complete.
+[2017.10.03-23.50.53:094][357]LogFileHelpers: Loading map 'KS_Test' took 7.674
+[2017.10.03-23.55.53:074][868]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.03-23.55.53:206][868]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.03-23.55.53:208][868]PIE: New page: PIE session: KS_Test (Oct 3, 2017, 3:55:53 PM)
+[2017.10.03-23.55.53:208][868]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_KS_Test
+[2017.10.03-23.55.53:668][868]LogPlayLevel: PIE: StaticDuplicateObject took: (0.459862s)
+[2017.10.03-23.55.53:669][868]LogAIModule: Creating AISystem for world KS_Test
+[2017.10.03-23.55.53:669][868]LogPlayLevel: PIE: World Init took: (0.001137s)
+[2017.10.03-23.55.53:669][868]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/KS_Test.KS_Test to /Game/Maps/UEDPIE_0_KS_Test.KS_Test (0.461454s)
+[2017.10.03-23.55.53:692][868]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.03-23.55.53:703][868]LogInit: FAudioDevice initialized.
+[2017.10.03-23.55.53:751][868]LogLoad: Game class is 'Driving_Mode_C'
+[2017.10.03-23.55.53:809][868]LogWorld: Bringing World /Game/Maps/UEDPIE_0_KS_Test.KS_Test up for play (max tick rate 0) at 2017.10.03-19.55.53
+[2017.10.03-23.55.53:832][868]LogWorld: Bringing up level for play took: 0.078965
+[2017.10.03-23.55.53:885][868]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.10.03-23.55.53:895][868]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_KS_Test 1.359
+[2017.10.03-23.55.53:898][868]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.03-23.55.53:898][868]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.03-23.55.53:898][868]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.03-23.55.53:899][868]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.03-23.55.53:927][869]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.03-23.55.53:927][869]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.03-23.55.53:927][869]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.03-23.55.53:927][869]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.00.05:337][247]LogActorFactory: Actor Factory created Road_T
+[2017.10.04-00.00.06:587][297]LogActorFactory: Actor Factory created Road_T
+[2017.10.04-00.01.21:704][796]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-00.01.21:759][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-00.01.21:760][796]PIE: New page: PIE session: KS_Test (Oct 3, 2017, 4:01:21 PM)
+[2017.10.04-00.01.21:760][796]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_KS_Test
+[2017.10.04-00.01.22:375][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.615167s)
+[2017.10.04-00.01.22:376][796]LogAIModule: Creating AISystem for world KS_Test
+[2017.10.04-00.01.22:376][796]LogPlayLevel: PIE: World Init took: (0.001115s)
+[2017.10.04-00.01.22:376][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/KS_Test.KS_Test to /Game/Maps/UEDPIE_0_KS_Test.KS_Test (0.616705s)
+[2017.10.04-00.01.22:402][796]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-00.01.22:412][796]LogInit: FAudioDevice initialized.
+[2017.10.04-00.01.22:448][796]LogLoad: Game class is 'Driving_Mode_C'
+[2017.10.04-00.01.22:504][796]LogWorld: Bringing World /Game/Maps/UEDPIE_0_KS_Test.KS_Test up for play (max tick rate 0) at 2017.10.03-20.01.22
+[2017.10.04-00.01.22:524][796]LogWorld: Bringing up level for play took: 0.075890
+[2017.10.04-00.01.22:528][796]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_KS_Test -0.007
+[2017.10.04-00.01.22:531][796]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.01.22:531][796]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.01.22:531][796]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.01.22:531][796]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.01.22:549][797]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.01.22:549][797]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.01.22:549][797]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.01.22:549][797]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.01.33:779][122]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_T3)
+[2017.10.04-00.01.53:622][705]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-00.01.53:675][705]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-00.01.53:675][705]PIE: New page: PIE session: KS_Test (Oct 3, 2017, 4:01:53 PM)
+[2017.10.04-00.01.53:675][705]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_KS_Test
+[2017.10.04-00.01.54:291][705]LogPlayLevel: PIE: StaticDuplicateObject took: (0.616067s)
+[2017.10.04-00.01.54:292][705]LogAIModule: Creating AISystem for world KS_Test
+[2017.10.04-00.01.54:292][705]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2017.10.04-00.01.54:292][705]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/KS_Test.KS_Test to /Game/Maps/UEDPIE_0_KS_Test.KS_Test (0.617373s)
+[2017.10.04-00.01.54:324][705]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-00.01.54:335][705]LogInit: FAudioDevice initialized.
+[2017.10.04-00.01.54:366][705]LogLoad: Game class is 'Driving_Mode_C'
+[2017.10.04-00.01.54:426][705]LogWorld: Bringing World /Game/Maps/UEDPIE_0_KS_Test.KS_Test up for play (max tick rate 0) at 2017.10.03-20.01.54
+[2017.10.04-00.01.54:444][705]LogWorld: Bringing up level for play took: 0.077535
+[2017.10.04-00.01.54:449][705]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_KS_Test -0.086
+[2017.10.04-00.01.54:451][705]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.01.54:451][705]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.01.54:451][705]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.01.54:451][705]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.01.54:468][706]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.01.54:468][706]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.01.54:468][706]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.01.54:468][706]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.02.14:001][281]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Road_T3)
+[2017.10.04-00.03.13:157][116]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.10.04-00.04.15:285][259]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.04-00.04.39:400][931]Cmd: SELECT NONE
+[2017.10.04-00.15.48:264][280]LogSavePackage: Save=4815.34ms
+[2017.10.04-00.15.48:264][280]LogSavePackage: Moving '../../../../../../Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Saved/KS_Test_Auto19426CF714EA82E33F4D774B615C86830.tmp' to '../../../../../../Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Saved/Autosaves/Game/Maps/KS_Test_Auto1.umap'
+[2017.10.04-00.15.48:271][280]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Saved/Autosaves/Game/Maps/KS_Test_Auto1.umap
+[2017.10.04-00.15.48:274][280]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/KS_Test' took 4.883
+[2017.10.04-00.15.48:274][280]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.883
+[2017.10.04-00.24.10:413][682]Cmd: TRANSACTION UNDO
+[2017.10.04-00.24.10:413][682]LogEditorTransaction: Undo Split Landscape Spline Segment
+[2017.10.04-00.24.10:583][682]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.24.10:583][682]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1401] ScaledElem[0] invalid
+[2017.10.04-00.24.10:583][682]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.24.10:583][682]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1402] ScaledElem[0] invalid
+[2017.10.04-00.24.10:583][682]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.24.10:583][682]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1403] ScaledElem[0] invalid
+[2017.10.04-00.24.18:474][943]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.10.04-00.24.35:756][526]Cmd: TRANSACTION UNDO
+[2017.10.04-00.24.35:757][526]LogEditorTransaction: Undo Apply Splines to Landscape
+[2017.10.04-00.24.41:504][707]Cmd: SELECT NONE
+[2017.10.04-00.24.43:151][764]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.10.04-00.24.49:259][969]Cmd: TRANSACTION UNDO
+[2017.10.04-00.24.49:259][969]LogEditorTransaction: Undo Apply Splines to Landscape
+[2017.10.04-00.25.30:949][166]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.10.04-00.25.37:027][363]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.10.04-00.25.38:110][400]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.10.04-00.26.14:031][620]Cmd: TRANSACTION UNDO
+[2017.10.04-00.26.14:032][620]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.10.04-00.26.14:431][620]LogTexture: Display: Building textures: Texture2D_273 (BGRA8, 512X512)
+[2017.10.04-00.26.14:539][620]LogTexture: Display: Building textures: Texture2D_272 (BGRA8, 512X512)
+[2017.10.04-00.26.29:525][203]Cmd: TRANSACTION UNDO
+[2017.10.04-00.26.29:525][203]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.10.04-00.26.29:919][203]LogTexture: Display: Building textures: Texture2D_273 (BGRA8, 512X512)
+[2017.10.04-00.26.30:024][203]LogTexture: Display: Building textures: Texture2D_272 (BGRA8, 512X512)
+[2017.10.04-00.26.48:706][925]Cmd: TRANSACTION UNDO
+[2017.10.04-00.26.48:706][925]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.10.04-00.26.49:110][925]LogTexture: Display: Building textures: Texture2D_273 (BGRA8, 512X512)
+[2017.10.04-00.26.49:212][925]LogTexture: Display: Building textures: Texture2D_272 (BGRA8, 512X512)
+[2017.10.04-00.27.06:029][542]Cmd: TRANSACTION UNDO
+[2017.10.04-00.27.06:029][542]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.10.04-00.27.06:414][542]LogTexture: Display: Building textures: Texture2D_273 (BGRA8, 512X512)
+[2017.10.04-00.27.06:518][542]LogTexture: Display: Building textures: Texture2D_272 (BGRA8, 512X512)
+[2017.10.04-00.27.09:392][645]Cmd: TRANSACTION UNDO
+[2017.10.04-00.27.09:392][645]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.10.04-00.27.09:759][645]LogTexture: Display: Building textures: Texture2D_273 (BGRA8, 512X512)
+[2017.10.04-00.27.09:856][645]LogTexture: Display: Building textures: Texture2D_272 (BGRA8, 512X512)
+[2017.10.04-00.27.20:233][ 41]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-00.27.20:286][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-00.27.20:286][ 41]PIE: New page: PIE session: KS_Test (Oct 3, 2017, 4:27:20 PM)
+[2017.10.04-00.27.20:287][ 41]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_KS_Test
+[2017.10.04-00.27.20:924][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.637516s)
+[2017.10.04-00.27.20:925][ 41]LogAIModule: Creating AISystem for world KS_Test
+[2017.10.04-00.27.20:926][ 41]LogPlayLevel: PIE: World Init took: (0.001167s)
+[2017.10.04-00.27.20:926][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/KS_Test.KS_Test to /Game/Maps/UEDPIE_0_KS_Test.KS_Test (0.639116s)
+[2017.10.04-00.27.20:958][ 41]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-00.27.20:969][ 41]LogInit: FAudioDevice initialized.
+[2017.10.04-00.27.21:005][ 41]LogLoad: Game class is 'Driving_Mode_C'
+[2017.10.04-00.27.21:065][ 41]LogWorld: Bringing World /Game/Maps/UEDPIE_0_KS_Test.KS_Test up for play (max tick rate 0) at 2017.10.03-20.27.21
+[2017.10.04-00.27.21:089][ 41]LogWorld: Bringing up level for play took: 0.083412
+[2017.10.04-00.27.21:093][ 41]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_KS_Test 0.558
+[2017.10.04-00.27.21:095][ 41]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.27.21:095][ 41]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.27.21:095][ 41]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.27.21:095][ 41]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.27.21:114][ 42]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.27.21:114][ 42]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.27.21:114][ 42]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.27.21:114][ 42]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.27.35:620][429]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-00.27.35:677][429]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-00.27.35:678][429]PIE: New page: PIE session: KS_Test (Oct 3, 2017, 4:27:35 PM)
+[2017.10.04-00.27.35:678][429]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_KS_Test
+[2017.10.04-00.27.36:318][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.640203s)
+[2017.10.04-00.27.36:319][429]LogAIModule: Creating AISystem for world KS_Test
+[2017.10.04-00.27.36:319][429]LogPlayLevel: PIE: World Init took: (0.001013s)
+[2017.10.04-00.27.36:319][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/KS_Test.KS_Test to /Game/Maps/UEDPIE_0_KS_Test.KS_Test (0.641655s)
+[2017.10.04-00.27.36:346][429]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-00.27.36:358][429]LogInit: FAudioDevice initialized.
+[2017.10.04-00.27.36:396][429]LogLoad: Game class is 'Driving_Mode_C'
+[2017.10.04-00.27.36:457][429]LogWorld: Bringing World /Game/Maps/UEDPIE_0_KS_Test.KS_Test up for play (max tick rate 0) at 2017.10.03-20.27.36
+[2017.10.04-00.27.36:477][429]LogWorld: Bringing up level for play took: 0.080461
+[2017.10.04-00.27.36:481][429]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_KS_Test -0.054
+[2017.10.04-00.27.36:483][429]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.27.36:483][429]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.27.36:483][429]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.27.36:483][429]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.27.36:503][430]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.27.36:503][430]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.27.36:504][430]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.27.36:504][430]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.28.37:046][296]LogEditorViewport: Clicking on Actor (LMB): Tornado_Pawn_BP_C (Tornado_Pawn_BP)
+[2017.10.04-00.28.39:455][329]LogEditorViewport: Clicking on Actor (LMB): Tornado_Pawn_BP_C (Tornado_Pawn_BP)
+[2017.10.04-00.29.11:348][270]Cmd: TRANSACTION UNDO
+[2017.10.04-00.29.11:348][270]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.10.04-00.29.11:599][270]LogTexture: Display: Building textures: Texture2D_272 (BGRA8, 512X512)
+[2017.10.04-00.29.40:549][147]LogActorFactory: Actor Factory created Bridge_1
+[2017.10.04-00.29.49:531][436]LogActorFactory: Actor Factory created Bridge_1
+[2017.10.04-00.29.51:039][484]LogActorFactory: Actor Factory created Bridge_1
+[2017.10.04-00.30.00:671][791]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-00.30.00:726][791]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-00.30.00:726][791]PIE: New page: PIE session: KS_Test (Oct 3, 2017, 4:30:00 PM)
+[2017.10.04-00.30.00:726][791]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_KS_Test
+[2017.10.04-00.30.01:364][791]LogPlayLevel: PIE: StaticDuplicateObject took: (0.637992s)
+[2017.10.04-00.30.01:365][791]LogAIModule: Creating AISystem for world KS_Test
+[2017.10.04-00.30.01:365][791]LogPlayLevel: PIE: World Init took: (0.000964s)
+[2017.10.04-00.30.01:365][791]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/KS_Test.KS_Test to /Game/Maps/UEDPIE_0_KS_Test.KS_Test (0.639405s)
+[2017.10.04-00.30.01:396][791]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-00.30.01:407][791]LogInit: FAudioDevice initialized.
+[2017.10.04-00.30.01:440][791]LogLoad: Game class is 'Driving_Mode_C'
+[2017.10.04-00.30.01:497][791]LogWorld: Bringing World /Game/Maps/UEDPIE_0_KS_Test.KS_Test up for play (max tick rate 0) at 2017.10.03-20.30.01
+[2017.10.04-00.30.01:517][791]LogWorld: Bringing up level for play took: 0.077402
+[2017.10.04-00.30.01:521][791]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_KS_Test 0.986
+[2017.10.04-00.30.01:523][791]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.30.01:523][791]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.30.01:524][791]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.30.01:524][791]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.30.01:541][792]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.30.01:541][792]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.30.01:542][792]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.30.01:542][792]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.30.24:965][472]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.10.04-00.30.25:762][482]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bridge_3)
+[2017.10.04-00.31.42:914][ 67]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2017.10.04-00.34.37:821][186]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.10.04-00.35.57:892][213]Cmd: DELETE
+[2017.10.04-00.35.57:892][213]Cmd: ACTOR DELETE
+[2017.10.04-00.35.59:358][256]Cmd: DELETE
+[2017.10.04-00.35.59:358][256]Cmd: ACTOR DELETE
+[2017.10.04-00.36.14:145][705]Cmd: TRANSACTION UNDO
+[2017.10.04-00.36.14:145][705]LogEditorTransaction: Undo Add Landscape Spline Segment
+[2017.10.04-00.36.14:335][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:335][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1534] ScaledElem[0] invalid
+[2017.10.04-00.36.14:335][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:335][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1615] ScaledElem[0] invalid
+[2017.10.04-00.36.14:336][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:336][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1616] ScaledElem[0] invalid
+[2017.10.04-00.36.14:336][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:336][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1617] ScaledElem[0] invalid
+[2017.10.04-00.36.14:336][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:336][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1618] ScaledElem[0] invalid
+[2017.10.04-00.36.14:337][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:337][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1619] ScaledElem[0] invalid
+[2017.10.04-00.36.14:337][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:337][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1620] ScaledElem[0] invalid
+[2017.10.04-00.36.14:337][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:337][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1621] ScaledElem[0] invalid
+[2017.10.04-00.36.14:337][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:337][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1622] ScaledElem[0] invalid
+[2017.10.04-00.36.14:337][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:337][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1623] ScaledElem[0] invalid
+[2017.10.04-00.36.14:337][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:337][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1624] ScaledElem[0] invalid
+[2017.10.04-00.36.14:337][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:337][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1625] ScaledElem[0] invalid
+[2017.10.04-00.36.14:337][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:337][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1626] ScaledElem[0] invalid
+[2017.10.04-00.36.14:338][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:338][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1627] ScaledElem[0] invalid
+[2017.10.04-00.36.14:338][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:338][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1628] ScaledElem[0] invalid
+[2017.10.04-00.36.14:338][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:338][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1629] ScaledElem[0] invalid
+[2017.10.04-00.36.14:338][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:338][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1630] ScaledElem[0] invalid
+[2017.10.04-00.36.14:338][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:338][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1631] ScaledElem[0] invalid
+[2017.10.04-00.36.14:338][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:338][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1632] ScaledElem[0] invalid
+[2017.10.04-00.36.14:338][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:338][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1633] ScaledElem[0] invalid
+[2017.10.04-00.36.14:339][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:339][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1646] ScaledElem[0] invalid
+[2017.10.04-00.36.14:341][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1626) Component already registered.
+[2017.10.04-00.36.14:342][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1625) Component already registered.
+[2017.10.04-00.36.14:343][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1624) Component already registered.
+[2017.10.04-00.36.14:343][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1627) Component already registered.
+[2017.10.04-00.36.14:343][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:343][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1627] ScaledElem[0] invalid
+[2017.10.04-00.36.14:344][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1623) Component already registered.
+[2017.10.04-00.36.14:344][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1622) Component already registered.
+[2017.10.04-00.36.14:346][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1631) Component already registered.
+[2017.10.04-00.36.14:346][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:346][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1631] ScaledElem[0] invalid
+[2017.10.04-00.36.14:346][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1633) Component already registered.
+[2017.10.04-00.36.14:347][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1632) Component already registered.
+[2017.10.04-00.36.14:349][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1628) Component already registered.
+[2017.10.04-00.36.14:349][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:349][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1628] ScaledElem[0] invalid
+[2017.10.04-00.36.14:349][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1630) Component already registered.
+[2017.10.04-00.36.14:350][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1629) Component already registered.
+[2017.10.04-00.36.14:351][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1621) Component already registered.
+[2017.10.04-00.36.14:351][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1616) Component already registered.
+[2017.10.04-00.36.14:351][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:352][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1616] ScaledElem[0] invalid
+[2017.10.04-00.36.14:353][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1618) Component already registered.
+[2017.10.04-00.36.14:353][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:353][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1618] ScaledElem[0] invalid
+[2017.10.04-00.36.14:354][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1620) Component already registered.
+[2017.10.04-00.36.14:355][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1619) Component already registered.
+[2017.10.04-00.36.14:356][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1615) Component already registered.
+[2017.10.04-00.36.14:356][705]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.36.14:356][705]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1615] ScaledElem[0] invalid
+[2017.10.04-00.36.14:356][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1617) Component already registered.
+[2017.10.04-00.36.14:357][705]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1534) Component already registered.
+[2017.10.04-00.36.20:634][889]Cmd: DELETE
+[2017.10.04-00.36.20:634][889]Cmd: ACTOR DELETE
+[2017.10.04-00.36.22:294][938]Cmd: DELETE
+[2017.10.04-00.36.22:294][938]Cmd: ACTOR DELETE
+[2017.10.04-00.36.38:271][459]Cmd: DELETE
+[2017.10.04-00.36.38:271][459]Cmd: ACTOR DELETE
+[2017.10.04-00.36.42:391][594]Cmd: DELETE
+[2017.10.04-00.36.42:391][594]Cmd: ACTOR DELETE
+[2017.10.04-00.38.04:603][869]Cmd: TRANSACTION UNDO
+[2017.10.04-00.38.04:604][869]LogEditorTransaction: Undo Add Landscape Spline Segment
+[2017.10.04-00.38.40:488][945]Cmd: TRANSACTION UNDO
+[2017.10.04-00.38.40:488][945]LogEditorTransaction: Undo Modify Landscape Spline Control Point
+[2017.10.04-00.38.40:530][945]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.38.40:530][945]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1674] ScaledElem[0] invalid
+[2017.10.04-00.38.40:531][945]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.38.40:531][945]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1673] ScaledElem[0] invalid
+[2017.10.04-00.38.40:532][945]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.38.40:532][945]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1675] ScaledElem[0] invalid
+[2017.10.04-00.38.40:533][945]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.38.40:533][945]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1676] ScaledElem[0] invalid
+[2017.10.04-00.38.40:534][945]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.38.40:534][945]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1677] ScaledElem[0] invalid
+[2017.10.04-00.38.40:540][945]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.38.40:540][945]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1671] ScaledElem[0] invalid
+[2017.10.04-00.38.40:541][945]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.38.40:541][945]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1670] ScaledElem[0] invalid
+[2017.10.04-00.38.40:543][945]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.38.40:543][945]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1684] ScaledElem[0] invalid
+[2017.10.04-00.38.40:544][945]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.38.40:544][945]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1686] ScaledElem[0] invalid
+[2017.10.04-00.38.40:545][945]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.38.40:545][945]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1687] ScaledElem[0] invalid
+[2017.10.04-00.38.40:546][945]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.38.40:546][945]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1688] ScaledElem[0] invalid
+[2017.10.04-00.38.40:547][945]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.38.40:547][945]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1678] ScaledElem[0] invalid
+[2017.10.04-00.38.40:548][945]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.38.40:548][945]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1680] ScaledElem[0] invalid
+[2017.10.04-00.38.40:549][945]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.38.40:549][945]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1681] ScaledElem[0] invalid
+[2017.10.04-00.39.30:428][298]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-00.39.30:484][298]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-00.39.30:484][298]PIE: New page: PIE session: KS_Test (Oct 3, 2017, 4:39:30 PM)
+[2017.10.04-00.39.30:485][298]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_KS_Test
+[2017.10.04-00.39.31:142][298]LogPlayLevel: PIE: StaticDuplicateObject took: (0.657051s)
+[2017.10.04-00.39.31:143][298]LogAIModule: Creating AISystem for world KS_Test
+[2017.10.04-00.39.31:143][298]LogPlayLevel: PIE: World Init took: (0.001220s)
+[2017.10.04-00.39.31:144][298]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/KS_Test.KS_Test to /Game/Maps/UEDPIE_0_KS_Test.KS_Test (0.658708s)
+[2017.10.04-00.39.31:178][298]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-00.39.31:190][298]LogInit: FAudioDevice initialized.
+[2017.10.04-00.39.31:222][298]LogLoad: Game class is 'Driving_Mode_C'
+[2017.10.04-00.39.31:283][298]LogWorld: Bringing World /Game/Maps/UEDPIE_0_KS_Test.KS_Test up for play (max tick rate 0) at 2017.10.03-20.39.31
+[2017.10.04-00.39.31:303][298]LogWorld: Bringing up level for play took: 0.080256
+[2017.10.04-00.39.31:309][298]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_KS_Test 0.774
+[2017.10.04-00.39.31:311][298]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.39.31:311][298]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.39.31:311][298]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.39.31:311][298]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.39.31:331][299]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.39.31:331][299]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.39.31:331][299]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.39.31:331][299]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.40.47:604][832]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.10.04-00.41.44:969][308]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.10.04-00.44.51:513][871]Cmd: TRANSACTION UNDO
+[2017.10.04-00.44.51:514][871]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.10.04-00.44.51:683][871]LogTexture: Display: Building textures: Texture2D_272 (BGRA8, 512X512)
+[2017.10.04-00.44.52:216][887]Cmd: TRANSACTION UNDO
+[2017.10.04-00.44.52:216][887]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.10.04-00.44.52:362][887]LogTexture: Display: Building textures: Texture2D_272 (BGRA8, 512X512)
+[2017.10.04-00.44.53:041][911]Cmd: TRANSACTION UNDO
+[2017.10.04-00.44.53:041][911]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.10.04-00.44.53:185][911]LogTexture: Display: Building textures: Texture2D_272 (BGRA8, 512X512)
+[2017.10.04-00.45.26:773][171]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-00.45.26:806][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-00.45.26:806][171]PIE: New page: PIE session: KS_Test (Oct 3, 2017, 4:45:26 PM)
+[2017.10.04-00.45.26:806][171]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_KS_Test
+[2017.10.04-00.45.27:302][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.495146s)
+[2017.10.04-00.45.27:303][171]LogAIModule: Creating AISystem for world KS_Test
+[2017.10.04-00.45.27:303][171]LogPlayLevel: PIE: World Init took: (0.001052s)
+[2017.10.04-00.45.27:303][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/KS_Test.KS_Test to /Game/Maps/UEDPIE_0_KS_Test.KS_Test (0.496537s)
+[2017.10.04-00.45.27:330][171]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-00.45.27:342][171]LogInit: FAudioDevice initialized.
+[2017.10.04-00.45.27:377][171]LogLoad: Game class is 'Driving_Mode_C'
+[2017.10.04-00.45.27:440][171]LogWorld: Bringing World /Game/Maps/UEDPIE_0_KS_Test.KS_Test up for play (max tick rate 0) at 2017.10.03-20.45.27
+[2017.10.04-00.45.27:460][171]LogWorld: Bringing up level for play took: 0.082695
+[2017.10.04-00.45.27:464][171]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_KS_Test 0.929
+[2017.10.04-00.45.27:466][171]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.45.27:466][171]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.45.27:466][171]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.45.27:467][171]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.45.27:483][172]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.45.27:483][172]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.45.27:483][172]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.45.27:483][172]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.46.40:249][489]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bridge_3)
+[2017.10.04-00.48.39:488][244]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Bridge_4)
+[2017.10.04-00.51.25:880][199]Cmd: DELETE
+[2017.10.04-00.51.25:880][199]Cmd: ACTOR DELETE
+[2017.10.04-00.51.38:518][656]Cmd: DELETE
+[2017.10.04-00.51.38:519][656]Cmd: ACTOR DELETE
+[2017.10.04-00.51.42:130][787]Cmd: DELETE
+[2017.10.04-00.51.42:130][787]Cmd: ACTOR DELETE
+[2017.10.04-00.51.52:925][123]Cmd: DELETE
+[2017.10.04-00.51.52:925][123]Cmd: ACTOR DELETE
+[2017.10.04-00.52.30:831][340]Cmd: DELETE
+[2017.10.04-00.52.30:831][340]Cmd: ACTOR DELETE
+[2017.10.04-00.52.32:648][408]Cmd: TRANSACTION UNDO
+[2017.10.04-00.52.32:648][408]LogEditorTransaction: Undo Delete Landscape Splines
+[2017.10.04-00.52.32:754][408]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.52.32:754][408]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1768] ScaledElem[0] invalid
+[2017.10.04-00.52.33:613][428]Cmd: TRANSACTION UNDO
+[2017.10.04-00.52.33:613][428]LogEditorTransaction: Undo Add Landscape Spline Control Point
+[2017.10.04-00.52.38:114][582]Cmd: TRANSACTION REDO
+[2017.10.04-00.52.38:114][582]LogEditorTransaction: Redo Add Landscape Spline Control Point
+[2017.10.04-00.52.38:171][582]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.52.38:171][582]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1760] ScaledElem[0] invalid
+[2017.10.04-00.52.38:172][582]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.52.38:172][582]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1763] ScaledElem[0] invalid
+[2017.10.04-00.52.38:177][582]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.52.38:177][582]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1748] ScaledElem[0] invalid
+[2017.10.04-00.52.38:257][582]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.52.38:257][582]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1745] ScaledElem[0] invalid
+[2017.10.04-00.52.38:257][582]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.52.38:257][582]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1748] ScaledElem[0] invalid
+[2017.10.04-00.52.38:258][582]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.52.38:258][582]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1749] ScaledElem[0] invalid
+[2017.10.04-00.52.38:258][582]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.52.38:258][582]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1750] ScaledElem[0] invalid
+[2017.10.04-00.52.38:258][582]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.52.38:258][582]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1751] ScaledElem[0] invalid
+[2017.10.04-00.52.38:258][582]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.52.38:258][582]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1752] ScaledElem[0] invalid
+[2017.10.04-00.52.38:258][582]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.52.38:258][582]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1753] ScaledElem[0] invalid
+[2017.10.04-00.52.38:258][582]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.52.38:258][582]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1754] ScaledElem[0] invalid
+[2017.10.04-00.52.38:258][582]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.52.38:258][582]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1755] ScaledElem[0] invalid
+[2017.10.04-00.52.38:260][582]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1745) Component already registered.
+[2017.10.04-00.52.38:261][582]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1755) Component already registered.
+[2017.10.04-00.52.38:261][582]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem is missing ConvexMesh
+[2017.10.04-00.52.38:261][582]LogPhysics: Warning: ForeachShape(Convex): [/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1755] ScaledElem[0] invalid
+[2017.10.04-00.52.38:261][582]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1754) Component already registered.
+[2017.10.04-00.52.38:262][582]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1753) Component already registered.
+[2017.10.04-00.52.38:262][582]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1752) Component already registered.
+[2017.10.04-00.52.38:263][582]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1751) Component already registered.
+[2017.10.04-00.52.38:264][582]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1750) Component already registered.
+[2017.10.04-00.52.38:264][582]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/KS_Test.KS_Test:PersistentLevel.Landscape_0.SplineMeshComponent_1749) Component already registered.
+[2017.10.04-00.52.41:253][682]Cmd: DELETE
+[2017.10.04-00.52.41:253][682]Cmd: ACTOR DELETE
+[2017.10.04-00.52.45:388][835]Cmd: DELETE
+[2017.10.04-00.52.45:388][835]Cmd: ACTOR DELETE
+[2017.10.04-00.53.10:060][522]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.10.04-00.54.26:602][ 84]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.10.04-00.54.28:016][134]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.10.04-00.55.16:024][876]Cmd: TRANSACTION UNDO
+[2017.10.04-00.55.16:024][876]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.10.04-00.55.16:187][876]LogTexture: Display: Building textures: Texture2D_272 (BGRA8, 512X512)
+[2017.10.04-00.55.21:205][ 76]Cmd: TRANSACTION UNDO
+[2017.10.04-00.55.21:205][ 76]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.10.04-00.55.25:280][226]Cmd: TRANSACTION UNDO
+[2017.10.04-00.55.25:280][226]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2017.10.04-00.55.39:294][747]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-00.55.39:325][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-00.55.39:325][747]PIE: New page: PIE session: KS_Test (Oct 3, 2017, 4:55:39 PM)
+[2017.10.04-00.55.39:325][747]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_KS_Test
+[2017.10.04-00.55.39:828][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.503610s)
+[2017.10.04-00.55.39:829][747]LogAIModule: Creating AISystem for world KS_Test
+[2017.10.04-00.55.39:829][747]LogPlayLevel: PIE: World Init took: (0.001057s)
+[2017.10.04-00.55.39:830][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/KS_Test.KS_Test to /Game/Maps/UEDPIE_0_KS_Test.KS_Test (0.505078s)
+[2017.10.04-00.55.39:863][747]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-00.55.39:874][747]LogInit: FAudioDevice initialized.
+[2017.10.04-00.55.39:910][747]LogLoad: Game class is 'Driving_Mode_C'
+[2017.10.04-00.55.39:971][747]LogWorld: Bringing World /Game/Maps/UEDPIE_0_KS_Test.KS_Test up for play (max tick rate 0) at 2017.10.03-20.55.39
+[2017.10.04-00.55.39:992][747]LogWorld: Bringing up level for play took: 0.080832
+[2017.10.04-00.55.39:996][747]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_KS_Test 1.46
+[2017.10.04-00.55.39:998][747]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.55.39:998][747]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.55.39:998][747]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.55.39:998][747]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.55.40:017][748]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.55.40:017][748]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.55.40:017][748]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.55.40:017][748]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.56.39:002][684]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.002760 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.57.03:154][406]Cmd: TRANSACTION UNDO
+[2017.10.04-00.57.03:154][406]LogEditorTransaction: Undo Split Landscape Spline Segment
+[2017.10.04-00.57.15:995][754]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.10.04-00.59.03:390][366]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.04-00.59.03:419][366]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.04-00.59.03:419][366]PIE: New page: PIE session: KS_Test (Oct 3, 2017, 4:59:03 PM)
+[2017.10.04-00.59.03:419][366]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_KS_Test
+[2017.10.04-00.59.03:920][366]LogPlayLevel: PIE: StaticDuplicateObject took: (0.499938s)
+[2017.10.04-00.59.03:920][366]LogAIModule: Creating AISystem for world KS_Test
+[2017.10.04-00.59.03:921][366]LogPlayLevel: PIE: World Init took: (0.001032s)
+[2017.10.04-00.59.03:921][366]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/KS_Test.KS_Test to /Game/Maps/UEDPIE_0_KS_Test.KS_Test (0.501315s)
+[2017.10.04-00.59.03:954][366]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.10.04-00.59.03:966][366]LogInit: FAudioDevice initialized.
+[2017.10.04-00.59.03:999][366]LogLoad: Game class is 'Driving_Mode_C'
+[2017.10.04-00.59.04:061][366]LogWorld: Bringing World /Game/Maps/UEDPIE_0_KS_Test.KS_Test up for play (max tick rate 0) at 2017.10.03-20.59.04
+[2017.10.04-00.59.04:081][366]LogWorld: Bringing up level for play took: 0.081384
+[2017.10.04-00.59.04:085][366]PIE: Play in editor start time for /Game/Maps/UEDPIE_0_KS_Test 1.55
+[2017.10.04-00.59.04:087][366]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.59.04:087][366]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.59.04:087][366]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.59.04:088][366]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.59.04:106][367]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.59.04:106][367]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.59.04:106][367]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.59.04:106][367]LogScriptCore: Warning: Script Msg: Divide by zero detected: 0.000000 / 0
+Script call stack:
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ReceiveTick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Server Tick
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:ExecuteUbergraph_Mercedes_BP
+	Function /Game/Vehicles/Mercedes/Mercedes_BP.Mercedes_BP_C:Detect Drifting
+
+[2017.10.04-00.59.34:862][255]LogTexture: Display: Building textures: Texture2D_272 (BGRA8, 512X512)
+[2017.10.04-00.59.34:875][255]LogTexture: Display: Building textures: Texture2D_273 (BGRA8, 512X512)
+[2017.10.04-00.59.38:846][255]LogSavePackage: Save=4667.79ms
+[2017.10.04-00.59.38:846][255]LogSavePackage: Moving '../../../../../../Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Saved/KS_Test0F6544E04C6FC866E3475C86CC69BD30.tmp' to '../../../../../../Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Content/Maps/KS_Test.umap'
+[2017.10.04-00.59.38:857][255]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Content/Maps/KS_Test.umap
+[2017.10.04-00.59.38:916][255]LogFileHelpers: Saving map 'KS_Test' took 4.897
+[2017.10.04-00.59.50:990][654]Cmd: QUIT_EDITOR
+[2017.10.04-00.59.51:103][654]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.04-00.59.51:103][654]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.04-00.59.51:122][654]LogExit: Preparing to exit.
+[2017.10.04-00.59.52:222][654]LogDirectoryWatcher: A directory notification for 'C:/Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Content/' was aborted.
+[2017.10.04-00.59.52:340][654]LogExit: Editor shut down
+[2017.10.04-00.59.52:350][654]LogExit: Transaction tracking system shut down
+[2017.10.04-00.59.52:520][654]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.04-00.59.52:520][654]LogDirectoryWatcher: A directory notification for '../../../../../../Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Content/' was aborted.
+[2017.10.04-00.59.52:520][654]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.04-00.59.52:520][654]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.04-00.59.52:520][654]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.04-00.59.52:623][654]LogExit: Object subsystem successfully closed.
+[2017.10.04-00.59.52:658][654]LogD3D11RHI: Shutdown
+[2017.10.04-00.59.52:659][654]LogD3D11RHI: CleanupD3DDevice
+[2017.10.04-00.59.53:332][654]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.04-00.59.53:366][654]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (534)
+[2017.10.04-00.59.53:366][654]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.10.04-00.59.53:366][654]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.10.04-00.59.53:366][654]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.10.04-00.59.53:366][654]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.10.04-00.59.53:366][654]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.10.04-00.59.53:367][654]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.10.04-00.59.53:367][654]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.10.04-00.59.53:367][654]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.10.04-00.59.53:367][654]LogDirectoryWatcher: A directory notification for 'C:/Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Content/Collections/' was aborted.
+[2017.10.04-00.59.53:367][654]LogDirectoryWatcher: A directory notification for 'C:/Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Content/Developers/wesda/Collections/' was aborted.
+[2017.10.04-00.59.53:367][654]LogDirectoryWatcher: A directory notification for 'C:/Users/wesda/Documents/Unreal Projects/StormHunters/fall-2017-storm-hunters/Saved/Collections/' was aborted.
+[2017.10.04-00.59.53:367][654]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.10.04-00.59.53:368][654]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.10.04-00.59.53:368][654]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.10.04-00.59.53:368][654]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.10.04-00.59.53:368][654]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.10.04-00.59.53:368][654]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.10.04-00.59.53:368][654]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.10.04-00.59.53:368][654]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.10.04-00.59.53:368][654]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.10.04-00.59.53:368][654]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.10.04-00.59.53:368][654]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.10.04-00.59.53:368][654]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.10.04-00.59.53:368][654]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.10.04-00.59.53:368][654]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.10.04-00.59.53:368][654]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.10.04-00.59.53:370][654]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.10.04-00.59.53:370][654]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.10.04-00.59.53:370][654]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.10.04-00.59.53:370][654]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.10.04-00.59.53:370][654]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.10.04-00.59.53:370][654]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.10.04-00.59.53:370][654]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.10.04-00.59.53:370][654]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.10.04-00.59.53:370][654]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.10.04-00.59.53:370][654]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.10.04-00.59.53:370][654]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.10.04-00.59.53:370][654]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.10.04-00.59.53:370][654]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.10.04-00.59.53:370][654]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.10.04-00.59.53:370][654]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.10.04-00.59.53:370][654]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.10.04-00.59.53:371][654]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.10.04-00.59.53:371][654]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.10.04-00.59.53:371][654]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.10.04-00.59.53:373][654]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.10.04-00.59.53:373][654]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.10.04-00.59.53:373][654]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.10.04-00.59.53:373][654]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.10.04-00.59.53:614][654]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.10.04-00.59.53:614][654]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.10.04-00.59.53:614][654]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.10.04-00.59.53:614][654]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.10.04-00.59.53:615][654]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.10.04-00.59.53:615][654]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.10.04-00.59.53:615][654]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.10.04-00.59.53:615][654]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.10.04-00.59.53:615][654]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.10.04-00.59.53:616][654]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.10.04-00.59.53:616][654]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.10.04-00.59.53:616][654]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.10.04-00.59.53:616][654]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.10.04-00.59.53:616][654]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.10.04-00.59.53:616][654]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.10.04-00.59.53:616][654]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.10.04-00.59.53:616][654]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.10.04-00.59.53:616][654]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.10.04-00.59.53:616][654]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.10.04-00.59.53:617][654]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.10.04-00.59.53:617][654]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.10.04-00.59.53:617][654]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.10.04-00.59.53:617][654]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.10.04-00.59.53:617][654]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.10.04-00.59.53:682][654]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.10.04-00.59.53:682][654]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.10.04-00.59.53:685][654]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.10.04-00.59.53:687][654]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.10.04-00.59.53:688][654]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.10.04-00.59.53:688][654]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.10.04-00.59.53:688][654]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.10.04-00.59.53:690][654]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.10.04-00.59.53:690][654]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.10.04-00.59.53:691][654]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.10.04-00.59.53:709][654]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.10.04-00.59.53:709][654]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.10.04-00.59.53:709][654]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.10.04-00.59.53:710][654]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.10.04-00.59.53:712][654]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.10.04-00.59.53:712][654]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.10.04-00.59.53:713][654]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.10.04-00.59.53:713][654]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.10.04-00.59.53:713][654]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.10.04-00.59.53:713][654]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.10.04-00.59.53:713][654]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.10.04-00.59.53:714][654]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.10.04-00.59.53:714][654]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.10.04-00.59.53:714][654]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.10.04-00.59.53:714][654]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.10.04-00.59.53:714][654]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.10.04-00.59.53:715][654]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.10.04-00.59.53:715][654]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.10.04-00.59.53:715][654]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.10.04-00.59.53:715][654]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.10.04-00.59.53:715][654]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.10.04-00.59.53:817][654]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.10.04-00.59.53:818][654]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.10.04-00.59.53:819][654]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.10.04-00.59.53:819][654]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.10.04-00.59.53:819][654]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.10.04-00.59.53:819][654]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.10.04-00.59.53:819][654]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.10.04-00.59.53:819][654]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.10.04-00.59.53:819][654]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.10.04-00.59.53:819][654]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.10.04-00.59.53:819][654]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.10.04-00.59.53:821][654]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.10.04-00.59.53:821][654]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.10.04-00.59.53:822][654]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.10.04-00.59.53:822][654]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.10.04-00.59.53:822][654]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.10.04-00.59.53:822][654]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.10.04-00.59.53:822][654]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.10.04-00.59.53:823][654]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.10.04-00.59.53:825][654]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.10.04-00.59.53:825][654]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.10.04-00.59.53:825][654]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.10.04-00.59.53:825][654]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.10.04-00.59.53:825][654]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.10.04-00.59.53:825][654]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.10.04-00.59.53:825][654]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.10.04-00.59.53:827][654]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.10.04-00.59.53:828][654]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.10.04-00.59.53:828][654]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.10.04-00.59.53:828][654]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.10.04-00.59.53:828][654]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.10.04-00.59.53:828][654]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.10.04-00.59.53:830][654]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.10.04-00.59.53:830][654]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.10.04-00.59.53:831][654]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.10.04-00.59.53:832][654]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.10.04-00.59.53:832][654]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.10.04-00.59.53:832][654]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.10.04-00.59.53:832][654]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.10.04-00.59.53:832][654]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.10.04-00.59.53:832][654]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.10.04-00.59.53:832][654]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.10.04-00.59.53:832][654]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.10.04-00.59.53:933][654]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.10.04-00.59.54:035][654]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.10.04-00.59.54:036][654]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.10.04-00.59.54:036][654]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.10.04-00.59.54:036][654]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.10.04-00.59.54:036][654]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.10.04-00.59.54:038][654]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.10.04-00.59.54:039][654]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.10.04-00.59.54:039][654]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.10.04-00.59.54:039][654]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.10.04-00.59.54:039][654]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.10.04-00.59.54:039][654]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.10.04-00.59.54:039][654]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.10.04-00.59.54:039][654]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.10.04-00.59.54:040][654]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.10.04-00.59.54:040][654]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.10.04-00.59.54:040][654]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.10.04-00.59.54:040][654]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.10.04-00.59.54:041][654]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.10.04-00.59.54:041][654]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.10.04-00.59.54:041][654]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.10.04-00.59.54:042][654]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.10.04-00.59.54:042][654]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.10.04-00.59.54:042][654]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.10.04-00.59.54:042][654]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.10.04-00.59.54:042][654]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.10.04-00.59.54:043][654]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.10.04-00.59.54:045][654]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.10.04-00.59.54:045][654]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.10.04-00.59.54:047][654]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.10.04-00.59.54:047][654]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.10.04-00.59.54:049][654]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.10.04-00.59.54:049][654]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.10.04-00.59.54:049][654]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.10.04-00.59.54:049][654]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.10.04-00.59.54:049][654]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.10.04-00.59.54:049][654]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.10.04-00.59.54:049][654]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.10.04-00.59.54:049][654]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.10.04-00.59.54:049][654]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.10.04-00.59.54:050][654]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.10.04-00.59.54:050][654]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.10.04-00.59.54:050][654]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.10.04-00.59.54:051][654]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.10.04-00.59.54:052][654]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.10.04-00.59.54:052][654]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.10.04-00.59.54:052][654]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.10.04-00.59.54:053][654]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.04-00.59.54:104][654]LogDerivedDataCache: Shutdown
+[2017.10.04-00.59.54:104][654]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.04-00.59.54:104][654]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.04-00.59.54:104][654]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.04-00.59.54:105][654]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.04-00.59.54:106][654]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.04-00.59.54:106][654]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.04-00.59.54:107][654]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.04-00.59.54:107][654]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.04-00.59.54:107][654]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.04-00.59.54:107][654]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.04-00.59.54:109][654]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.04-00.59.54:109][654]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.04-00.59.54:109][654]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.04-00.59.54:109][654]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.04-00.59.54:109][654]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.04-00.59.54:109][654]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.04-00.59.54:109][654]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.04-00.59.54:109][654]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.04-00.59.54:109][654]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.04-00.59.54:109][654]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.04-00.59.54:110][654]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.04-00.59.54:110][654]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.04-00.59.54:110][654]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.04-00.59.54:110][654]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.04-00.59.54:110][654]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.04-00.59.54:110][654]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.04-00.59.54:110][654]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.04-00.59.54:110][654]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.04-00.59.54:110][654]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.04-00.59.54:110][654]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.04-00.59.54:110][654]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.04-00.59.54:110][654]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.04-00.59.54:110][654]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.04-00.59.54:110][654]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.04-00.59.54:111][654]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.04-00.59.54:111][654]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.04-00.59.54:111][654]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.04-00.59.54:111][654]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.04-00.59.54:111][654]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.04-00.59.54:111][654]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.04-00.59.54:111][654]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.04-00.59.54:111][654]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.04-00.59.54:111][654]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.04-00.59.54:112][654]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.10.04-00.59.54:112][654]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.10.04-00.59.54:112][654]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.10.04-00.59.54:112][654]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.04-00.59.54:112][654]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.04-00.59.54:112][654]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.04-00.59.54:112][654]LogOnline: Display: Unloading online subsystem: NULL
+[2017.10.04-00.59.54:114][654]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.04-00.59.54:115][654]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.04-00.59.54:115][654]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.04-00.59.54:115][654]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFC291FB1-4B1F-9D3F-E397-42AF0C26E5DD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=541d31574068fcf9c973a8878afe939b%7Ce37239e5ddae4f15abfd994a5e38b528%7C98667f09-aa33-4367-adb6-81f92e45f993&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.04-00.59.54:124][654]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.04-00.59.54:128][654]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.04-00.59.54:128][654]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.04-00.59.54:128][654]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.04-00.59.54:129][654]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.04-00.59.54:129][654]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.04-00.59.54:129][654]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.04-00.59.54:129][654]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.04-00.59.54:133][654]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.04-00.59.54:134][654]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.04-00.59.54:134][654]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.04-00.59.54:134][654]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.04-00.59.54:134][654]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.04-00.59.54:134][654]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.04-00.59.54:134][654]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.04-00.59.54:134][654]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.04-00.59.54:134][654]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.04-00.59.54:135][654]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.04-00.59.54:135][654]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.04-00.59.54:139][654]LogExit: Exiting.
+[2017.10.04-00.59.54:172][654]Log file closed, 10/03/17 20:59:54
